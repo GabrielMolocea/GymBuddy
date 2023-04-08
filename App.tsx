@@ -2,7 +2,8 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { Text, View } from 'react-native';
 import { Provider } from 'react-redux';
-import { store } from './store/store';
+import { store } from './store';
+
 
 export default function App(): JSX.Element {
   return (
